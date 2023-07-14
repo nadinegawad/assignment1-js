@@ -338,23 +338,23 @@ switch (num % 2 == 0) {
 
 // // 19- Write a program to check whether a number is positive or negative or zero 
 
-// var num = Number(window.prompt("enter number :"));
-// switch (num > 0) {
-//      case true:
-//           window.alert("positive");
-//           break;
-//      case false:
-//           switch (num) {
-//                case 0:
-//                     window.alert("zero");
-//                     break;
-//                default:
-//                     window.alert("negative");
+var num = Number(window.prompt("enter number :"));
+switch (num > 0) {
+     case true:
+          window.alert("positive");
+          break;
+     case false:
+          switch (num) {
+               case 0:
+                    window.alert("zero");
+                    break;
+               default:
+                    window.alert("negative");
 
-//                     break;
+                    break;
 
-//           }
-// }
+          }
+}
 
 
 
